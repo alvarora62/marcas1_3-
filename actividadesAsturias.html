@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head><script src="assets/js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Entorno | La Xana</title>
+    <link href="css/a.css" rel="stylesheet">
+    <link rel="icon" href="img/icono.png" type="image/png" sizes="16x16">
+    
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
+
+    
+
+    
+
+<link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        width: 100%;
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+      .btn-bd-primary {
+        --bd-violet-bg: #712cf9;
+        --bd-violet-rgb: 112.520718, 44.062154, 249.437846;
+
+        --bs-btn-font-weight: 600;
+        --bs-btn-color: var(--bs-white);
+        --bs-btn-bg: var(--bd-violet-bg);
+        --bs-btn-border-color: var(--bd-violet-bg);
+        --bs-btn-hover-color: var(--bs-white);
+        --bs-btn-hover-bg: #6528e0;
+        --bs-btn-hover-border-color: #6528e0;
+        --bs-btn-focus-shadow-rgb: var(--bd-violet-rgb);
+        --bs-btn-active-color: var(--bs-btn-hover-color);
+        --bs-btn-active-bg: #5a23c8;
+        --bs-btn-active-border-color: #5a23c8;
+      }
+      .bd-mode-toggle {
+        z-index: 1500;
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+      <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="info-color" aria-pressed="false">
+            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+            Light
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
+            Dark
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
+            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#circle-half"></use></svg>
+            Auto
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    
+<header data-bs-theme="succes">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">La Xana</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link" href="paginaInicio.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="habitaciones.html">Habitaciones</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="galería.html">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="actividadesAsturias.html">El entorno</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"  href="formularioContacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<main>
+
+
+  <hr class="featurette-divider">
+
+    <div class="container">
+      <div class="row featurette">
+        <div style="font-size: 50px; background-color: rgb(204, 192, 177); width: 100%;" >El Entorno Asturiano</div>
+        <div class="separador"></div>
+        <p style="color: black;"></p>
+      </div>
+    </div>
+
+    <br><br>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Caminar por los Picos de Europa</h2>
+        <p>Los Picos de Europa es uno de los lugares más impresionantes que Asturias tiene para ofrecer. Esta cadena montañosa se encuentra en el norte de España y es famosa por sus espectaculares paisajes naturales y su belleza salvaje.
+          <ul>
+          <li>Los Picos de Europa ofrecen numerosas rutas de senderismo para todos los niveles, desde caminatas sencillas hasta escaladas técnicas. La mayoría de las rutas están bien señalizadas y son fáciles de seguir.
+          </li>
+          <li>La belleza natural de los Picos de Europa es impresionante. Con sus altas montañas, gargantas profundas, ríos cristalinos y bosques frondosos, es un paraíso para los amantes de la naturaleza.
+        
+          </li>  </ul></p>
+      </div>
+      <div class="col-md-6">
+        <img src="img/picoseu.png" alt="Caminata por los Picos de Europa" class="img-fluid">
+      </div>
+    </div>
+    <hr class="featurette-divider">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="img/playagijon.jpg" alt="Playa en Gijón" class="img-fluid">
+      </div>
+      <div class="col-md-6">
+        <h2>Relajarse en las playas de Gijón</h2>
+        <p>
+          <strong>Playa de San Lorenzo:</strong> Es la playa más conocida y emblemática de Gijón, y también es la más grande, con más de 1 kilómetro de longitud. Está situada en pleno centro de la ciudad y cuenta con una gran oferta de servicios, como alquiler de sombrillas y hamacas, duchas, aseos, restaurantes y chiringuitos. Además, cuenta con una amplia oferta de actividades deportivas, como surf, paddle surf, vóley playa y más.
+          <br><br>
+          <strong>Playa de Poniente:</strong> Esta playa se encuentra al oeste de la ciudad y tiene una longitud de alrededor de 800 metros. También cuenta con una amplia oferta de servicios, como alquiler de sombrillas y hamacas, duchas, aseos, restaurantes y chiringuitos. Es una playa más tranquila que la Playa de San Lorenzo, y es ideal para practicar deportes acuáticos como el surf y el windsurf.
+          <br><br>
+          <strong>Playa de El Arbeyal:</strong> Es una playa situada al este de la ciudad, cerca del puerto deportivo y de la desembocadura del río Peñafrancia. Tiene una longitud de alrededor de 500 metros y es una playa tranquila, ideal para relajarse y disfrutar del sol. También cuenta con servicios como alquiler de sombrillas y hamacas, duchas, aseos y chiringuitos.
+        </p>
+      </div>
+    </div>
+    <hr class="featurette-divider">
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Visitar el casco histórico de Oviedo</h2>
+        <p>El casco antiguo de Oviedo está lleno de calles empedradas, plazas y edificios históricos que datan de la época medieval. La catedral de Oviedo, conocida como la Santa Iglesia Basílica Catedral Metropolitana de San Salvador de Oviedo, es uno de los principales atractivos del casco antiguo. Esta catedral de estilo gótico fue construida en el siglo XIII y es conocida por su Capilla de San Miguel, que alberga la famosa Cámara Santa, una sala que contiene una colección de reliquias de los siglos IX y X, incluyendo la Cruz de la Victoria, uno de los símbolos más importantes de Asturias.<br><br>En resumen, el casco antiguo de Oviedo es un lugar lleno de historia y cultura, donde los visitantes pueden disfrutar de una experiencia única y auténtica de la región de Asturias.</p>
+      </div>
+      <div class="col-md-6">
+        <img src="img/oviedohistorico.png" alt="Casco histórico de Oviedo" class="img-fluid">
+      </div>
+    </div>
+    <hr class="featurette-divider">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="img/sidra.png" alt="Sidrería en Asturias" class="img-fluid">
+      </div>
+      <div class="col-md-6">
+        <h2>Probar la sidra asturiana</h2>
+        <p>La sidra asturiana es una bebida alcohólica tradicional de Asturias, en el norte de España. Se elabora a partir de manzanas asturianas seleccionadas y prensadas en una prensa especial llamada "llagar". El mosto resultante se fermenta en barricas de madera durante varios meses para producir sidra.
+          <br>
+          La sidra asturiana es única en su sabor y aroma, con un característico aroma a manzana y una acidez refrescante. Se sirve tradicionalmente en un vaso especial llamado "culín" y se escancia desde una botella a una distancia considerable para airearla y mejorar su sabor.
+          <br>
+          Además de su delicioso sabor, la sidra asturiana es parte importante de la cultura y tradición asturiana, siendo protagonista de fiestas y celebraciones como el "Día de la Sidra" en Nava. También es una bebida muy saludable, rica en antioxidantes y vitaminas.
+          <br>
+          Si buscas una bebida auténtica y deliciosa con siglos de tradición, la sidra asturiana es sin duda una excelente elección.</p>
+      </div>
+    </div>
+  </div>
+
+</main>
+</body>
+
+<hr class="featurette-divider">
+
+<footer>
+  <div class="container-fluid text-center">
+    <div class="row">
+      <div class="col-lg-12">
+        <br>
+        <p>Álvaro Ronco Acebal - Pagina creada para un trabajo escolar.</p>
+        <br><br>
+        <p>&copy; 2017-2023 La Xana. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+<div id="subir"><a href="#"><img src="img/up.png" height="20" width="20"></a></div>
+</html>

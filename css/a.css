@@ -1,0 +1,36 @@
+body{
+    background-color: antiquewhite !important;
+}
+
+.row h2{
+    color: darkblue;
+}
+
+i{
+    color: green !important;
+}
+
+footer{
+    background-color: black;
+    height: 200px;
+    color: white;
+}
+
+.subir{
+    display: block;
+    position: absolute;
+    top: 95%;
+}
+
+.separador{
+    background-color: black;
+    color: white;
+    width: 1px;
+    padding: 2px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/*Cuadro JS*/
+
